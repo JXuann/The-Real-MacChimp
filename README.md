@@ -4,3 +4,5 @@ Reliably obtaining the identifies of wild animals is an inseparable step of unde
 
 In this 'The Real MacChimp?' project, we investigate the feasibility of using Semi-supervised Generative Adversarial Networks to leverage both the limited labeled and unlabeled still images of chimpanzee faces to predict their identities. The results are compared to baseline ResNet architectures. As a prototype, we aim to develop of an open source framework that later will be able predict multiple attributes of chimpanzees such as identity, age, age group and gender, which could be also adapted to other wild species.
 
+* MacChimp stands for 'Machine-created Chimp'
+** The real McCoy: https://en.wikipedia.org/wiki/The_real_McCoy
