@@ -1,4 +1,4 @@
-# The-Real-MacChimp-
+# The Real MacChimp?
 
 Reliably obtaining the identifies of wild animals is an inseparable step of understanding the wild animals and their interactions, as well as monitoring the populations for conservation. Automatically recognizing wild chimpanzee \textit{Pan troglodytes} from still images or videos faces challenges like limited labeled data, significant class imbalance, and a wide range of noises in training and testing. 
 
