@@ -64,7 +64,7 @@ Use SGAN_train.py to launch training of SGAN (adapting the paths to yours and de
 
 The report of our experiments could be accessed via https://www.overleaf.com/read/rbxyxqhrbtgd. We recommend to use the report as an orientation to our implementation.
 
-Last but not the least, many thanks to Freytag and colleagues for initially assembling the dataset and make them publically available since then. The main dataset used in our work could be found here https://github.com/cvjena/chimpanzee\_faces.
+Last but not the least, many thanks to Freytag and colleagues for initially assembling the dataset and make them publically available since then. The main dataset used in our work could be found here https://github.com/cvjena/chimpanzee\_faces. For the images that we extracted from videos, I didn't upload them to the repo to preserve sapce but feel free to drop me a line.
 
 ^ MacChimp stands for 'Machine-created Chimp' \
 ** The real McCoy: https://en.wikipedia.org/wiki/The_real_McCoy
