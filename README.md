@@ -4,31 +4,6 @@ Reliably obtaining the identifies of wild animals is an inseparable step of unde
 
 In this 'The Real MacChimp?' project, we investigate the feasibility of using (transductive) transfer learning and semi-supervised Generative Adversarial Networks to utilize both the limited labeled and unlabeled still images of chimpanzee faces to predict their identities. As a prototype, we aim to develop of an open source framework that later will be able predict multiple attributes of chimpanzees such as identity, age, age group and gender, which could be also adapted to other wild species.
 
-The directory structure is:\
-README.md\
-ResNet18\
-*|\
-*+--resnet18.ipynb\
-*+--csv\
-*+--saved_models\
-ResNet50\
-  |\
-  +--resnet50.ipynb\
-SGAN\
-  |\
-  +--SGAN_train.py\
-  +--csv\
-  +--data\
-      |\
-      +--facedataset.py\
-  +--models\
-      |\
-      +--discriminator.py\
-      +--generator.py\
-  +--utils\
-      |\
-      +--summary.py
-
 Use SGAN_train.py to launch training of SGAN (adapting the paths to yours and defining the training parameters).\
 
 The report of our experiments could be accessed via https://www.overleaf.com/read/rbxyxqhrbtgd. We recommend to use the report as an orientation to our implementation.\
