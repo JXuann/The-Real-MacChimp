@@ -115,7 +115,7 @@ if __name__ == "__main__":
         for epoch in range(n_epochs):
             # train starts here
             imgs_real_unl_ds_iter = iter(imgs_real_unl_ds)
-            print("Training starts: epoch -", str(epoch))
+            print("Training at epoch:", str(epoch))
             for (imgs_labeled, targets) in train_ds:
                 with tf.GradientTape() as generator_tape, tf.GradientTape() as discriminator_tape:
 
@@ -157,9 +157,9 @@ if __name__ == "__main__":
                             'fold{}_discriminator_loss'.format(i), dis_loss, step=step)
 
                     print('Epoch_{}_Step_{}'.format(epoch, step),
-                          'fold{}_generator_loss'.format(i), gen_loss)
+                          'fold{}_generator_loss:'.format(i), gen_loss.numpy())
                     print('Epoch_{}_Step_{}'.format(epoch, step),
-                          'fold{}_discriminator_loss'.format(i), dis_loss,)
+                          'fold{}_discriminator_loss:'.format(i), dis_loss.numpy(),)
 
                     step += 1
 
@@ -175,11 +175,10 @@ if __name__ == "__main__":
                 _, logits_imgs_labeled = discriminator(input, False)
                 sample_test_loss = discriminator_supervised_loss(
                     target, logits_imgs_labeled)
-                print('sample_test_loss is', sample_test_loss)
+                print('sample_test_loss is', sample_test_loss.numpy())
 
                 prediction = tf.nn.softmax(logits_imgs_labeled)
-                print('Prediction of supervised discriminator is: ', prediction)
-
+                
                 # axis=0 is the batch_size, axis=1 is the one-hot encoding of the labels
                 sample_test_accuracy = np.argmax(
                     target, axis=1) == np.argmax(prediction, axis=1)
