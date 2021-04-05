@@ -56,11 +56,12 @@ In this 'The Real MacChimp?' project, we investigate the feasibility of using (t
     │   ├── discriminator.py
     │   └── generator.py
     ├── SGAN_train.py
+    ├── TheRealMacChimp_SGAN_conda_env.yml
     └── utils
         └── summary.py
 ```
 
-Use SGAN_train.py to launch training of SGAN (adapting the paths to yours and defining the training parameters).
+You could use TheRealMacChimp_SGAN_conda_env.yml to create a tmp conda env to reproduce our work with ease. SGAN_train.py is used to launch training of SGAN (adapting the paths to yours and defining the training parameters).
 
 The report of our experiments could be accessed via https://www.overleaf.com/read/rbxyxqhrbtgd. We recommend to use the report as an orientation to our implementation.
 
