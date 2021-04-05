@@ -7,10 +7,10 @@ In this 'The Real MacChimp?' project, we investigate the feasibility of using (t
 The directory structure is:\
 README.md\
 ResNet18\
-  |\
-  +--resnet18.ipynb\
-  +--csv\
-  +--saved_models\
+&nbsp&nbsp|\
+&nbsp&nbsp+--resnet18.ipynb\
+&nbsp&nbsp+--csv\
+&nbsp&nbsp+--saved_models\
 ResNet50\
   |\
   +--resnet50.ipynb\
@@ -27,7 +27,7 @@ SGAN\
       +--generator.py\
   +--utils\
       |\
-      +--summary.py\
+      +--summary.py
 
 Use SGAN_train.py to launch training of SGAN (adapting the paths to yours and defining the training parameters).\
 
