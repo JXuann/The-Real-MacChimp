@@ -4,7 +4,7 @@ Reliably obtaining the identifies of wild animals is an inseparable step of unde
 
 In this 'The Real MacChimp?' project, we investigate the feasibility of using (transductive) transfer learning and semi-supervised Generative Adversarial Networks to utilize both the limited labeled and unlabeled still images of chimpanzee faces to predict their identities. As a prototype, we aim to develop of an open source framework that later will be able predict multiple attributes of chimpanzees such as identity, age, age group and gender, which could be also adapted to other wild species.
 
-'''├── _config.yml
+'''bash
 ├── README.md
 ├── ResNet18
 │   ├── csv
