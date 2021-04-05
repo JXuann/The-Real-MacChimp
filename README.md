@@ -7,10 +7,10 @@ In this 'The Real MacChimp?' project, we investigate the feasibility of using (t
 The directory structure is:\
 README.md\
 ResNet18\
-&nbsp&nbsp|\
-&nbsp&nbsp+--resnet18.ipynb\
-&nbsp&nbsp+--csv\
-&nbsp&nbsp+--saved_models\
+*|\
+*+--resnet18.ipynb\
+*+--csv\
+*+--saved_models\
 ResNet50\
   |\
   +--resnet50.ipynb\
