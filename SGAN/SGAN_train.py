@@ -178,8 +178,7 @@ if __name__ == "__main__":
                 print('sample_test_loss is', sample_test_loss)
 
                 prediction = tf.nn.softmax(logits_imgs_labeled)
-                print('Prediction of supervised discriminator is: ', prediction)
-
+                
                 # axis=0 is the batch_size, axis=1 is the one-hot encoding of the labels
                 sample_test_accuracy = np.argmax(
                     target, axis=1) == np.argmax(prediction, axis=1)
